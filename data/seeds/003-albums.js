@@ -5,7 +5,7 @@ exports.seed = function(knex) {
     .then(function () {
       // Inserts seed entries
       return knex('albums').insert([
-        {id: 1, albumName: '', albumImage: 'https://pbs.twimg.com/media/CMiqjJWWwAA0oxN?format=jpg&name=medium', albumDescription: 'This album has all the music'},
+        {id: 1, albumName: 'the big EP', albumImage: 'https://pbs.twimg.com/media/CMiqjJWWwAA0oxN?format=jpg&name=medium', albumDescription: 'This album has all the music'},
       ]);
     });
 };
